@@ -414,4 +414,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_itit_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn1_itit_1_0.raw \
     vendor/motorola/quark/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_enus_3_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_enus_3_1.raw \
     vendor/motorola/quark/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw \
-    vendor/motorola/quark/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw
+    vendor/motorola/quark/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw \
+vendor/motorola/quark/proprietary/lib/libjni_mot_mosaic.so:system/lib/libjni_mot_mosaic.so \
+vendor/motorola/quark/proprietary/lib/libslowmotionconverter.so:system/lib/libslowmotionconverter.so
