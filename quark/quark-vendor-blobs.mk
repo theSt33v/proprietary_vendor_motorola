@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -380,5 +380,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml \
     vendor/motorola/quark/proprietary/lib/hw/sound_trigger.primary.apq8084.so:system/lib/hw/sound_trigger.primary.apq8084.so \
     vendor/motorola/quark/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
-vendor/motorola/quark/proprietary/lib/libjni_mot_mosaic.so:system/lib/libjni_mot_mosaic.so \
-vendor/motorola/quark/proprietary/lib/libslowmotionconverter.so:system/lib/libslowmotionconverter.so
+    vendor/motorola/quark/proprietary/lib/libjni_mot_mosaic.so:system/lib/libjni_mot_mosaic.so \
+    vendor/motorola/quark/proprietary/lib/libslowmotionconverter.so:system/lib/libslowmotionconverter.so \
+    vendor/motorola/quark/proprietary/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
+    vendor/motorola/quark/proprietary/etc/permissions/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml

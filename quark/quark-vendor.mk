@@ -18,7 +18,6 @@
 
 # /system/app
 PRODUCT_PACKAGES += \
-    appdirectedsmspermission \
     atfwd \
     MotGeoFenceSvc \
     qcrilmsgtunnel \
@@ -36,6 +35,8 @@ PRODUCT_PACKAGES += \
 
 # /system/priv-app
 PRODUCT_PACKAGES += \
+    appdirectedsmspermission \
+    AppDirectedSMSProxy \
     BuaContactAdapter \
     CNEService \
     com.qualcomm.location \
