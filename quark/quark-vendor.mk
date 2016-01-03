@@ -19,7 +19,6 @@
 # /system/app
 PRODUCT_PACKAGES += \
     atfwd \
-    MotGeoFenceSvc \
     qcrilmsgtunnel \
     TimeService \
     VZWAPNLib \
