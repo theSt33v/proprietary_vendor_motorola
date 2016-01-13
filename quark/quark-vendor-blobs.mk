@@ -380,4 +380,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/libjni_mot_mosaic.so:system/lib/libjni_mot_mosaic.so \
     vendor/motorola/quark/proprietary/lib/libslowmotionconverter.so:system/lib/libslowmotionconverter.so \
     vendor/motorola/quark/proprietary/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
-    vendor/motorola/quark/proprietary/etc/permissions/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml
+    vendor/motorola/quark/proprietary/etc/permissions/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
+    vendor/motorola/quark/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/motorola/quark/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
+    vendor/motorola/quark/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
+    vendor/motorola/quark/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/motorola/quark/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/motorola/quark/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/motorola/quark/proprietary/bin/init.mmi.volte.rc:system/bin/init.mmi.volte.rc \
+    vendor/motorola/quark/proprietary/etc/permissions/com.motorola.ims.rcsmanager.xml:system/etc/permissions/com.motorola.ims.rcsmanager.xml \
+    vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
+    vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
+    vendor/motorola/quark/proprietary/etc/permissions/com.verizon.ims.xml:system/etc/permissions/com.verizon.ims.xml \
+    vendor/motorola/quark/proprietary/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
+    vendor/motorola/quark/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml
