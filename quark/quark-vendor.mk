@@ -19,11 +19,7 @@
 # /system/app
 PRODUCT_PACKAGES += \
     atfwd \
-    ims \
     qcrilmsgtunnel \
-    RCSBootstraputil \
-    RcsImsBootstraputil \
-    RcsService \
     TimeService \
     VZWAPNLib \
     vzwapnpermission
@@ -31,16 +27,10 @@ PRODUCT_PACKAGES += \
 # /system/framework
 PRODUCT_PACKAGES += \
     cneapiclient \
-    com.motorola.ims.rcsmanager \
-    com.verizon.hardware.telephony.ehrpd \
-    com.verizon.hardware.telephony.lte \
-    com.verizon.ims \
     com.quicinc.cne \
     org.simalliance.openmobileapi \
     qcnvitems \
-    qcrilhook \
-    rcsimssettings \
-    rcsservice
+    qcrilhook
 
 # /system/priv-app
 PRODUCT_PACKAGES += \
