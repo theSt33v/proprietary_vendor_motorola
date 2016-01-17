@@ -380,4 +380,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/libjni_mot_mosaic.so:system/lib/libjni_mot_mosaic.so \
     vendor/motorola/quark/proprietary/lib/libslowmotionconverter.so:system/lib/libslowmotionconverter.so \
     vendor/motorola/quark/proprietary/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
-    vendor/motorola/quark/proprietary/etc/permissions/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml
+    vendor/motorola/quark/proprietary/etc/permissions/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
+    vendor/motorola/quark/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/motorola/quark/proprietary/lib/libflacencoder.so:system/lib/libflacencoder.so \
+    vendor/motorola/quark/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
+    vendor/motorola/quark/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
+    vendor/motorola/quark/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so
