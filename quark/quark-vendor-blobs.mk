@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
     vendor/motorola/quark/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
     vendor/motorola/quark/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
-    vendor/motorola/quark/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
     vendor/motorola/quark/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/quark/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/quark/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
