@@ -20,7 +20,8 @@
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
-    VZWAPNLib
+    VZWAPNLib \
+    vzwapnpermission
 
 # /system/framework
 PRODUCT_PACKAGES += \
@@ -43,7 +44,8 @@ PRODUCT_PACKAGES += \
     MotoSignatureApp \
     TriggerEnroll \
     TriggerTrainingService \
-    VZWAPNService
+    VZWAPNService \
+    appdirectedsmspermission
 
 # /vendor/lib
 PRODUCT_PACKAGES += \
