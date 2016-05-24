@@ -20,8 +20,7 @@
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
-    VZWAPNLib \
-    wake_gestures
+    VZWAPNLib
 
 # /system/framework
 PRODUCT_PACKAGES += \
