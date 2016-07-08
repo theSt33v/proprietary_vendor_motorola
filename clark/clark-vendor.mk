@@ -32,7 +32,8 @@ PRODUCT_PACKAGES += \
     DMConfigUpdateLight \
     HiddenMenuLight \
     ims \
-    MotoSignatureApp
+    MotoSignatureApp \
+    TimeService
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
@@ -46,6 +47,11 @@ PRODUCT_PACKAGES += \
     LifetimeData \
     qcrilmsgtunnel \
     SprintDM
+
+# Prebuilt libs needed for compilation
+PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api
 
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
