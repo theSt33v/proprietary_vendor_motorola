@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
 # /system/framework
 PRODUCT_PACKAGES += \
     cneapiclient \
+    com.google.android.maps \
     com.quicinc.cne \
     com.verizon.hardware.telephony.ehrpd.jar \
     com.verizon.hardware.telephony.lte.jar \
