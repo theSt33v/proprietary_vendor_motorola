@@ -343,4 +343,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/hw/sound_trigger.primary.apq8084.so:system/lib/hw/sound_trigger.primary.apq8084.so \
     vendor/motorola/quark/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
     vendor/motorola/quark/proprietary/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
-    vendor/motorola/quark/proprietary/etc/permissions/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml
+    vendor/motorola/quark/proprietary/etc/permissions/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
+    vendor/motorola/quark/proprietary/lib/libjni_keyboarddecoder.so:system/lib/libjni_keyboarddecoder.so \
+    vendor/motorola/quark/proprietary/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
