@@ -27,8 +27,8 @@ PRODUCT_PACKAGES += \
     cneapiclient \
     com.google.android.maps \
     com.quicinc.cne \
-    com.verizon.hardware.telephony.ehrpd.jar \
-    com.verizon.hardware.telephony.lte.jar \
+    com.verizon.hardware.telephony.ehrpd \
+    com.verizon.hardware.telephony.lte \
     org.simalliance.openmobileapi \
     qcnvitems \
     qcrilhook
