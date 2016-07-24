@@ -186,7 +186,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/motorola/quark/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/motorola/quark/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/motorola/quark/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/motorola/quark/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/motorola/quark/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/motorola/quark/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/motorola/quark/proprietary/bin/qseecomd:system/bin/qseecomd \
