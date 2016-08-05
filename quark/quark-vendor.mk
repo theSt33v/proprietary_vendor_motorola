@@ -20,6 +20,7 @@
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
+    TurboToast \
     VZWAPNLib
 
 # /system/framework
