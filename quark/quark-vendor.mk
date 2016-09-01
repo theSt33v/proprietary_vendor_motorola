@@ -43,8 +43,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     com.qualcomm.services.location \
     MotoSignatureApp \
-    TriggerEnroll \
-    TriggerTrainingService \
     VZWAPNService
 
 # /vendor/lib
