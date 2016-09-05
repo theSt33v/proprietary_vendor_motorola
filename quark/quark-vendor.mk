@@ -18,6 +18,7 @@
 
 # /system/app
 PRODUCT_PACKAGES += \
+    ims \
     qcrilmsgtunnel \
     TimeService \
     TurboToast \
@@ -28,11 +29,14 @@ PRODUCT_PACKAGES += \
     cneapiclient \
     com.google.android.maps \
     com.quicinc.cne \
+    com.verizon.ims \
     com.verizon.hardware.telephony.ehrpd \
     com.verizon.hardware.telephony.lte \
     org.simalliance.openmobileapi \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    rcsimssettings \
+    rcsservice
 
 # /system/priv-app
 PRODUCT_PACKAGES += \
