@@ -46,6 +46,7 @@ PRODUCT_PACKAGES += \
     CNEService \
     com.qualcomm.location \
     com.qualcomm.services.location \
+    isu \
     MotoSignatureApp \
     VZWAPNService
 
