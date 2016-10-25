@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/motorola/qcom-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/motorola/qcom-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/motorola/qcom-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/motorola/qcom-common/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
     vendor/motorola/qcom-common/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
     vendor/motorola/qcom-common/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
@@ -44,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/motorola/qcom-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/motorola/qcom-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-    vendor/motorola/qcom-common/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
     vendor/motorola/qcom-common/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/motorola/qcom-common/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/motorola/qcom-common/proprietary/lib/libmercury.so:system/lib/libmercury.so \
