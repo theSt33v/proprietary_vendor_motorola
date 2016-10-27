@@ -18,6 +18,7 @@
 
 # /system/app
 PRODUCT_PACKAGES += \
+    atfwd \
     ims \
     qcrilmsgtunnel \
     TimeService \
@@ -41,7 +42,6 @@ PRODUCT_PACKAGES += \
 # /system/priv-app
 PRODUCT_PACKAGES += \
     AppDirectedSMSProxy \
-    atfwd \
     BuaContactAdapter \
     CNEService \
     com.qualcomm.location \
