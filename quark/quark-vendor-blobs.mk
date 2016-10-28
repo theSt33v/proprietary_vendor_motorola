@@ -349,7 +349,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/motorola/quark/proprietary/app/Adaway/lib/arm/libblank_webserver_exec.so:system/app/Adaway/lib/arm/libblank_webserver_exec.so \
     vendor/motorola/quark/proprietary/app/Adaway/lib/arm/libtcpdump_exec.so:system/app/Adaway/lib/arm/libtcpdump_exec.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
+    vendor/motorola/quark/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/quark/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/motorola/quark/proprietary/vendor/lib/libmotocalibration.so:system/vendor/lib/libmotocalibration.so \
     vendor/motorola/quark/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
