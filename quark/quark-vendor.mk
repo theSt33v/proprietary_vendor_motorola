@@ -47,6 +47,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     com.qualcomm.services.location \
     isu \
+    KernelAdiutor \
     MotoSignatureApp \
     VZWAPNService
 
