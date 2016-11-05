@@ -18,8 +18,9 @@
 
 # /system/app
 PRODUCT_PACKAGES += \
-    atfwd \
     ims \
+    RCSBootstraputil \
+    RcsImsBootstraputil \
     qcrilmsgtunnel \
     TimeService \
     TurboToast \
@@ -29,6 +30,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     cneapiclient \
     com.google.android.maps \
+    com.motorola.ims.rcsmanager \
     com.quicinc.cne \
     com.verizon.ims \
     com.verizon.hardware.telephony.ehrpd \
@@ -41,6 +43,7 @@ PRODUCT_PACKAGES += \
 
 # /system/priv-app
 PRODUCT_PACKAGES += \
+    atfwd \
     AppDirectedSMSProxy \
     BuaContactAdapter \
     CNEService \
