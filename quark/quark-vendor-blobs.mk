@@ -384,4 +384,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
     vendor/motorola/quark/proprietary/lib/libsupol.so:system/lib/libsupol.so \
     vendor/motorola/quark/proprietary/xbin/supolicy:system/xbin/supolicy \
-    vendor/motorola/quark/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon
+    vendor/motorola/quark/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/motorola/quark/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so
