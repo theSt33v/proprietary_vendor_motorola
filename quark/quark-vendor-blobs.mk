@@ -382,7 +382,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/motorola/quark/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/motorola/quark/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
-    vendor/motorola/quark/proprietary/lib/libsupol.so:system/lib/libsupol.so \
-    vendor/motorola/quark/proprietary/xbin/supolicy:system/xbin/supolicy \
+    vendor/motorola/quark/proprietary/etc/sp/sp_lib:system/etc/sp/sp_lib \
+    vendor/motorola/quark/proprietary/etc/sp/sp_bin:system/etc/sp/sp_bin \
     vendor/motorola/quark/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/motorola/quark/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so
