@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,9 +18,6 @@
 
 # /system/app
 PRODUCT_PACKAGES += \
-    ims \
-    RCSBootstraputil \
-    RcsImsBootstraputil \
     qcrilmsgtunnel \
     TimeService \
     TurboToast \
@@ -32,14 +29,11 @@ PRODUCT_PACKAGES += \
     com.google.android.maps \
     com.motorola.ims.rcsmanager \
     com.quicinc.cne \
-    com.verizon.ims \
     com.verizon.hardware.telephony.ehrpd \
     com.verizon.hardware.telephony.lte \
     org.simalliance.openmobileapi \
     qcnvitems \
-    qcrilhook \
-    rcsimssettings \
-    rcsservice
+    qcrilhook
 
 # /system/priv-app
 PRODUCT_PACKAGES += \
@@ -59,3 +53,5 @@ PRODUCT_PACKAGES += \
     libtime_genoff
 
 $(call inherit-product, vendor/motorola/quark/quark-vendor-blobs.mk)
+# Verizon IMS from Shamu current config doesn’t work for quark
+#$(call inherit-product, vendor/motorola/quark/quark-vendor-ims-blobs.mk)

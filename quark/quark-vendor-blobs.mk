@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -354,38 +354,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/motorola/quark/proprietary/vendor/lib/libmotocalibration.so:system/vendor/lib/libmotocalibration.so \
     vendor/motorola/quark/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
-    vendor/motorola/quark/proprietary/etc/permissions/com.verizon.ims.xml:system/etc/permissions/com.verizon.ims.xml \
-    vendor/motorola/quark/proprietary/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
-    vendor/motorola/quark/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
     vendor/motorola/quark/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/motorola/quark/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/motorola/quark/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/motorola/quark/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/motorola/quark/proprietary/app/ims/lib/arm/libimscamera_jni.so:system/app/ims/lib/arm/libimscamera_jni.so \
-    vendor/motorola/quark/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/motorola/quark/proprietary/app/ims/lib/arm/libimsmedia_jni.so:system/app/ims/lib/arm/libimsmedia_jni.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-ims-setting-jni.so:system/vendor/lib/lib-ims-setting-jni.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-ims-settings.so:system/vendor/lib/lib-ims-settings.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/motorola/quark/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/motorola/quark/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
     vendor/motorola/quark/proprietary/etc/sp/sp_lib:system/etc/sp/sp_lib \
     vendor/motorola/quark/proprietary/etc/sp/sp_bin:system/etc/sp/sp_bin \
-    vendor/motorola/quark/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
     vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
     vendor/motorola/quark/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so
