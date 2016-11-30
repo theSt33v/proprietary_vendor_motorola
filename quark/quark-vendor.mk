@@ -18,6 +18,7 @@
 
 # /system/app
 PRODUCT_PACKAGES += \
+    Adaway \
     qcrilmsgtunnel \
     TimeService \
     TurboToast \
