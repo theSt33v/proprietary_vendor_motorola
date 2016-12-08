@@ -366,6 +366,8 @@ PRODUCT_PACKAGES += \
 # BHB27 mod
 PRODUCT_PACKAGES += \
     com.google.android.maps \
+    com.verizon.hardware.telephony.srlte \
+    imssettings
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
@@ -390,9 +392,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/app/TurboToast/TurboToast.apk:system/app/TurboToast/TurboToast.apk \
     vendor/motorola/quark/proprietary/priv-app/isu/isu.apk:system/priv-app/isu/isu.apk \
     vendor/motorola/quark/proprietary/priv-app/KernelAdiutor/KernelAdiutor.apk:system/priv-app/KernelAdiutor/KernelAdiutor.apk \
-    vendor/motorola/quark/proprietary/app/InductiveChargeUI/InductiveChargeUI.apk:system/app/InductiveChargeUI/InductiveChargeUI.apk
+    vendor/motorola/quark/proprietary/app/InductiveChargeUI/InductiveChargeUI.apk:system/app/InductiveChargeUI/InductiveChargeUI.apk \
+    vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.srlte.xml:system/etc/permissions/com.verizon.hardware.telephony.srlte.xml \
 
 # Verizon IMS from Shamu current config doesn’t work for quark
 #$(call inherit-product, vendor/motorola/quark/quark-vendor-ims-blobs.mk)
 # Shamu audiomonitor files current config doesn’t work for quark
-#$(call inherit-product, vendor/motorola/quark/quark-vendor-quark-vendor-audiomonitor-blobs.mk-blobs.mk)
+#$(call inherit-product, vendor/motorola/quark/quark-vendor-quark-vendor-audiomonitor-blobs.mk)
