@@ -137,7 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
     vendor/motorola/quark/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/quark/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
-    vendor/motorola/quark/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/motorola/quark/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/motorola/quark/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/motorola/quark/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
@@ -162,7 +161,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
     vendor/motorola/quark/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
     vendor/motorola/quark/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
-    vendor/motorola/quark/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/quark/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/quark/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/motorola/quark/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -173,7 +171,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/motorola/quark/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/motorola/quark/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/motorola/quark/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/motorola/quark/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/motorola/quark/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
@@ -338,7 +335,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/motorola/quark/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/quark/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/motorola/quark/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/quark/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
