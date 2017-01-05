@@ -386,8 +386,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/motorola/quark/proprietary/app/Adaway/Adaway.apk:system/app/Adaway/Adaway.apk \
     vendor/motorola/quark/proprietary/app/TurboToast/TurboToast.apk:system/app/TurboToast/TurboToast.apk \
-    vendor/motorola/quark/proprietary/priv-app/isu/isu.apk:system/priv-app/isu/isu.apk \
-    vendor/motorola/quark/proprietary/priv-app/KernelAdiutor/KernelAdiutor.apk:system/priv-app/KernelAdiutor/KernelAdiutor.apk \
+    vendor/motorola/quark/proprietary/app/isu/isu.apk:system/app/isu/isu.apk \
+    vendor/motorola/quark/proprietary/app/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk \
     vendor/motorola/quark/proprietary/app/InductiveChargeUI/InductiveChargeUI.apk:system/app/InductiveChargeUI/InductiveChargeUI.apk \
     vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.srlte.xml:system/etc/permissions/com.verizon.hardware.telephony.srlte.xml \
 
