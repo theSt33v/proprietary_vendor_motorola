@@ -21,7 +21,6 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     TimeService \
-    TurboToast \
     VZWAPNLib
 
 # /system/framework
@@ -46,7 +45,6 @@ PRODUCT_PACKAGES += \
     CNEService \
     com.qualcomm.location \
     com.qualcomm.services.location \
-    isu \
     MotoSignatureApp \
     VZWAPNService
 

@@ -379,4 +379,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
     vendor/motorola/quark/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/motorola/quark/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so
+    vendor/motorola/quark/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
+    vendor/motorola/quark/proprietary/app/TurboToast/TurboToast.apk:system/app/TurboToast/TurboToast.apk \
+    vendor/motorola/quark/proprietary/app/isu/isu.apk:system/app/isu/isu.apk
