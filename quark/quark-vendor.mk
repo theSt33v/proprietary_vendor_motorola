@@ -362,8 +362,7 @@ PRODUCT_PACKAGES += \
 # BHB27 mod
 PRODUCT_PACKAGES += \
     com.google.android.maps \
-    com.verizon.hardware.telephony.srlte \
-    imssettings
+    com.verizon.hardware.telephony.srlte
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
