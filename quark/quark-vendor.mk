@@ -382,7 +382,13 @@ PRODUCT_PACKAGES += \
     com.verizon.hardware.telephony.lte \
     org.simalliance.openmobileapi \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    RCSBootstraputil \
+    RcsImsBootstraputil \
+    rcsimssettings \
+    rcsservice \
+    com.motorola.motosignature \
+    com.motorola.ims.rcsmanager 
 
 # BHB27 mod
 PRODUCT_PACKAGES += \
