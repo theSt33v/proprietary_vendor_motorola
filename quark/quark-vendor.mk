@@ -392,6 +392,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/app/substratum/substratum.apk:system/app/substratum/substratum.apk
 
 # Verizon IMS from Shamu current config doesn’t work for quark
-#$(call inherit-product, vendor/motorola/quark/quark-vendor-ims-blobs.mk)
+$(call inherit-product, vendor/motorola/quark/quark-vendor-ims-blobs.mk)
 # Shamu audiomonitor files current config doesn’t work for quark
 #$(call inherit-product, vendor/motorola/quark/quark-vendor-quark-vendor-audiomonitor-blobs.mk)
