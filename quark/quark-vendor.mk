@@ -336,13 +336,38 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/quark/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/quark/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/motorola/quark/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/motorola/quark/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/motorola/quark/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/motorola/quark/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/motorola/quark/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/motorola/quark/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/motorola/quark/proprietary/etc/permissions/com.verizon.ims.xml:system/etc/permissions/com.verizon.ims.xml \
+    vendor/motorola/quark/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+    vendor/motorola/quark/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/motorola/quark/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     VZWAPNLib \
     qcrilmsgtunnel \
+    ims \
+    imssettings \
+    imscmlibrary \
     AppDirectedSMSProxy \
     BuaContactAdapter \
     CNEService \
@@ -357,7 +382,13 @@ PRODUCT_PACKAGES += \
     com.verizon.hardware.telephony.lte \
     org.simalliance.openmobileapi \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    RCSBootstraputil \
+    RcsImsBootstraputil \
+    rcsimssettings \
+    rcsservice \
+    com.motorola.motosignature \
+    com.motorola.ims.rcsmanager 
 
 # BHB27 mod
 PRODUCT_PACKAGES += \
@@ -392,6 +423,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/app/substratum/substratum.apk:system/app/substratum/substratum.apk
 
 # Verizon IMS from Shamu current config doesn’t work for quark
-#$(call inherit-product, vendor/motorola/quark/quark-vendor-ims-blobs.mk)
+$(call inherit-product, vendor/motorola/quark/quark-vendor-ims-blobs.mk)
 # Shamu audiomonitor files current config doesn’t work for quark
 #$(call inherit-product, vendor/motorola/quark/quark-vendor-quark-vendor-audiomonitor-blobs.mk)
