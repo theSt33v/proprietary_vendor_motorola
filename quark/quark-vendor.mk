@@ -336,7 +336,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/quark/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/quark/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/motorola/quark/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/motorola/quark/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/quark/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/motorola/quark/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/motorola/quark/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
